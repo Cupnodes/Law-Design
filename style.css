@@ -81,3 +81,27 @@ h3 {
 .fa-chevron-right {
     font-size: 3rem;
 }
+
+@media screen and (max-width: 780px) {
+    body{
+        flex-direction: column;
+        padding-left: 0;
+        width: 100vw;
+        margin: 1rem;
+    }
+
+    aside,
+    main {
+        height: auto;
+        width: 100%;
+    }
+
+    main {
+        margin-bottom: 2rem;
+    }
+
+    .box,
+    aside img {
+        width: 100%;
+    }
+}
